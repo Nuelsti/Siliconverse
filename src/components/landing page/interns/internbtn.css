@@ -1,0 +1,97 @@
+/* .interns__btn{
+    position: relative;
+    display: flex;
+}
+.int__bns{
+    position: absolute;
+    bottom: -210px;
+    left: 180px;
+}
+.int__bns1{
+    position: absolute;
+    bottom: -210px;
+    right: 200px;
+} */
+/* @media screen and (max-width:1500px) {
+    .interns__btn{
+        flex-wrap: wrap;
+        position: none;
+        display: none;
+
+    }
+    .int__bns{
+        position: none;
+        bottom: 0;
+        left: 0;
+    }
+    .int__bns1{
+        bottom: 0;
+        left: 0;
+    }
+    
+} */
+button{
+
+}
+.intern__btn{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.intern__apply{
+    position: absolute;
+    bottom:-30px;
+    left:270px;
+    background: black; 
+    border: 10px; 
+    width: 322px; 
+    height: 66px; 
+    font-size:24px; 
+    font-weight:600; 
+    color: white;
+    border-radius: 20px;
+    font-family: 'poppins' ;
+}
+.intern__get{
+    position: absolute;
+    bottom:-30px;
+    right:270px;
+    background: black; 
+    border: 10px; 
+    width: 322px; 
+    height: 66px; 
+    font-size:24px; 
+    font-weight:600; 
+    color: white;
+    border-radius: 20px;
+    font-family: 'poppins' ;
+
+}
+
+@media screen and (max-width:1400px) {
+    .intern__btn{
+        flex-wrap: wrap;
+        gap: 40px;
+
+    }
+    button{
+        width: 100%;
+        
+    }
+    .intern__apply{
+        position: inherit;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        margin: 0 20px;
+    }
+    .intern__get{
+        position: inherit;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        margin: 0 20px;
+    }
+    
+}
