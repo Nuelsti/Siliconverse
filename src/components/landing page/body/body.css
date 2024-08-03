@@ -1,5 +1,5 @@
 .body{
-    /* max-width: 1200px; */
+    max-width: 100%;
     background-color: #FDEFE9;
     height: 768px;
     margin: 0 auto; 
@@ -8,7 +8,8 @@
 
 .body__container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between   ;
+    /* gap:-1900px; */
     width: 100%;
     align-items: center;
     /* height: auto; */
@@ -26,11 +27,13 @@
     width: 575px;
     height: 619px;
     border-radius: 8%;
+    right: 0;
+    /* position: absolute; */
 }
 .body__buttons{
     /* margin-left: 0; */
     position: absolute;
-    left: 65px;
+    left: 0;
     /* bottom: 0; */
     margin-top: 50px;
 }
@@ -57,6 +60,7 @@
     }
     
 }
+
 @media screen and (max-width: 1200px){
     .body__container{
         flex-wrap: wrap;
@@ -66,13 +70,47 @@
         margin-top: 40px;
         width: 100%;
         margin-left: 0;
-        /* align-items: center; */
+        align-items: center;
+        margin: 0 auto;
         text-align: left;
 
     }
     .body__image{
         display: none;
     }
+    .body__title{
+        margin-top: 50px;
+        font-size: 50px;
+        /* width: 50%; */
+        text-align: center;
+    }
+    .body__description{
+        font-size: 30px;
+        /* text-align: center; */
+    }
 
+    
+}
+@media screen and (max-width:800px) {
+    .body__title{
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    .body__description{
+        font-size: 30px;
+    }
+    /* .body__text{
+        margin-bottom: 0;
+    } */
+    
+}
+@media screen and (max-width:500px) {
+    .body__title{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .body__description{
+        font-size: 20px;
+    }
     
 }

@@ -15,9 +15,8 @@
 
 
 .container{
-  max-width: 1800px; 
-  /* margin: 0 20px; */
-  padding: 0 80px;
+  max-width: 1500px; 
+  margin: 0 60px;
 
 }
   
@@ -48,7 +47,7 @@ p{
   @media screen and (max-width: 1200px) {
     .container {
       max-width:100%;
-      margin: 0 20px;
+      margin: 0 5px;
       
       /* height: fit-content; */
       /* height: 100vh; */
