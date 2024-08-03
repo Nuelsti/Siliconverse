@@ -15,14 +15,15 @@
 
 
 .container{
-  max-width: 1500px; 
-  margin: 0 60px;
+  max-width: 1800px; 
+  /* margin: 0 20px; */
+  padding: 0 80px;
 
 }
   
 body{
   margin: 0px;
-  /* width: 200vw; */
+  /* width: 100vw; */
   /* height: 200vh; */
 }
 h1,h2,h3{

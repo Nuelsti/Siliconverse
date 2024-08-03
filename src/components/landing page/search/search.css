@@ -1,6 +1,8 @@
 .search__main {
     width: 1256px;
     display: flex;
+    flex-basis: 0 1 0;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     height: 62px;
@@ -531,6 +533,7 @@
   .submenu .submenu-link {
     display: block;
     padding: 12px 24px;
+    position: absolute;
     width: auto;
     position: relative;
     text-align: center;
@@ -572,25 +575,60 @@
     justify-content: space-between;
   }
 
-  @media screen and (max-width:1400px) {
+  @media screen and (max-width:1200px) {
     .search__main{
-        flex-wrap: wrap;
+      /* gap: 10px; */
+      flex-wrap: nowrap;
+      width: 100%;
+      position: static;
+      /* flex-direction: column;
+      align-items: center; */
+    }
+    .search__main .search__bar{
+      /* flex-wrap: wrap; */
+      /* flex-direction: column; */
+      align-items: center;
+      gap: 10px;
+      position:static;
+  }
+    
+  }
+
+  @media screen and (max-width:1000px) {
+    .search__main{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
         gap:20px;
+        /* height: 48px; */
+        position: static;
         /* margin: 0 auto; */
-        width: auto;
+        width: 100%;
+        padding-top:20px;
+        padding-bottom: 20px;
+        /* padding: 0 200px; */
         height: auto;
 
     }
     .search__main .search__bar{
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
         gap: 20px;
+        position:static;
+        /* height: 48px; */
     }
     .menu .item:hover .submenu {
         display: block;
         opacity: 1;
         transform: translateY(0);
         pointer-events: auto;
-        height: auto;
+        /* height: 48px; */
+        
       }
+
     
   }
+
+  /* still workin on this  */
+  /* need help with this */

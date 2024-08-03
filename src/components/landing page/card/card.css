@@ -1,0 +1,38 @@
+
+.magazine{
+    max-width: 1126px;
+    max-height: 448px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 20px;
+    border: solid #FFFFFF;
+    box-shadow: 0 0 2px 4px #e3e0e0;
+}
+
+.magazine .magazine__text{
+    width: 60%;
+    line-height: 10px;
+    /* position: absolute; */
+}
+.magazine__description{
+    line-height: 50px;
+    letter-spacing: 1px;
+    font-size: 36px;
+}
+.magazine__more_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.magazine__sub-text{
+    font-size: 24px;
+    font-family: 'poppins';
+    color: rgb(133, 129, 129);
+}
+.magazine_2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

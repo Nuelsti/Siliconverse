@@ -16,7 +16,7 @@ function Body() {
                     <h2 className="body__description">A Job Portal for internships and Silicon Magazine for
                     industry insights and success stories.</h2>
                     <Nav className="body__buttons">              
-                        <Nav.Link as={Link} to="/register" className='rg'>
+                        <Nav.Link as={Link} to="/register" className='body__btns'>
                             <Button variant="primary" className='registr' style={{ background: '#FF5F15', borderRadius: '40px', width: '193px', height: '44px', fontSize: '16px', fontWeight: '600', fontFamily: 'poppins', borderColor:'#FF5F15' }}>Get started</Button>
                         </Nav.Link>
                     </Nav>
